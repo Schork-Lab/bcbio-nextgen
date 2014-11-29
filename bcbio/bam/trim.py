@@ -16,7 +16,8 @@ SUPPORTED_ADAPTERS = {
     "illumina": ["AACACTCTTTCCCT", "AGATCGGAAGAGCG"],
     "truseq": ["AGATCGGAAGAG"],
     "polya": ["AAAAAAAAAAAAA"],
-    "nextera": ["AATGATACGGCGA", "CAAGCAGAAGACG"]}
+    "nextera": ["AATGATACGGCGA", "CAAGCAGAAGACG"],
+    "smartseq2": ["AAGCAGTGGTATCAACGCAGAGTAC"]}
 
 def trim_adapters(fastq_files, out_dir, config):
     """
